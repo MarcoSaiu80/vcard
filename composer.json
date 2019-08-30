@@ -1,26 +1,27 @@
 {
-    "name": "jeroendesloovere/vcard",
+    "name": "MarcoSaiu80/vcard",
     "type": "library",
-    "description": "This VCard PHP class can generate a vCard with some data. When using an iOS device it will export as a .ics file because iOS devices don't support the default .vcf files.",
+    "description": "This VCard PHP class can generate a vCard with some data, one o more contacs. When using an iOS device it will export as a .ics file because iOS devices don't support the default .vcf files.",
     "keywords": ["vcard", "generator", ".vcf", "php"],
-    "homepage": "https://github.com/jeroendesloovere/vcard",
+    "homepage": "https://github.com/MarcoSaiu80/vcard/",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jeroen Desloovere",
-            "email": "info@jeroendesloovere.be",
-            "homepage": "http://jeroendesloovere.be",
+            "name": "MS",
+            "email": "saiu80@gmail.com",
+            "homepage": "",
             "role": "Developer"
         }
     ],
     "require": {
         "php": ">=5.3.3",
-        "behat/transliterator": "~1.0"
+        "behat/transliterator": "~1.0",
+        "jeroendesloovere/vcard": "^1.7"
     },
     "require-dev": {
         "phpunit/phpunit": "4.6.*"
     },
     "autoload": {
-        "psr-4": { "JeroenDesloovere\\VCard\\": "src/" }
+        "psr-4": { "MarcoSaiu80\\VCard\\": "src/" }
     }
 }
